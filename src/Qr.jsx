@@ -14,8 +14,7 @@ function QRPage() {
   const firstNameFromContext = userData.firstName || firstName;
   const lastNameFromContext = userData.lastName || lastName;
 
-  // const baseUrl = window.location.origin;
-  const baseUrl = "https://chal-ja-pliz.vercel.app/";
+  const baseUrl = window.location.origin;
   const queryParams = new URLSearchParams({
     firstName: firstNameFromContext,
     lastName: lastNameFromContext,
